@@ -1,0 +1,79 @@
+
+
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.header-logo {
+    margin: 20px 0px 20px 0px
+}
+
+.main-nav {
+    background-color: #37475e;
+}
+
+.main-content-header{
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 30px 0px 0px 0px;
+}
+
+.main-content-small-header {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-content-smaller-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.footer {
+    height: 300px;
+    background-color: #37475e;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.footertext {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    font-size: 15px;
+}
+
+.turkulogo-footer {
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 65px;
+    margin-top: 20px;
+    left: 10%;
+}
+
+.footer a {
+    color: white;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 35%;
+    font-size: 20px;
+}
+
+.Footer-header {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+@media (max-width:600px) {
+    .turkulogo-footer {
+        position: relative;
+        margin: 20px 0px -30px 30%;
+    }
+}
